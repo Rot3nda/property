@@ -15,8 +15,7 @@ body {
 }
 
 header {
-  position: sticky;
-  top: 0;
+  position: fixed;
   width: 100%;
   height: fit-content;
   display: flex;
@@ -450,6 +449,9 @@ footer{
         height: 27px;
         margin-right: 4%;
     }
+    .prop{
+        font-size: 110%;
+    }
 
     .f2,.f3{
         width: 40%;
@@ -477,7 +479,9 @@ footer{
         flex-direction: column-reverse;
     }
     #s2a{
-        width: 90%;
+        width: 95%;
+        padding-left: 2%;
+        padding-right: 1%;
     }
     .loc{
         margin-bottom: 4%;
