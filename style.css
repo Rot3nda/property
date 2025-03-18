@@ -100,28 +100,30 @@ nav a{
     position: absolute;
     top: 20vh;
     left: 100px;
-    border-radius: 20px;
+    border-radius: 0px;
     
 }
 
 .f2{
-    background-color: orangered;
-    rotate: 15deg;
+    background-color: rgb(255, 255, 255);
+    rotate: 20deg;
     z-index: 901;
 }
 .f3{
-    background-color: rgba(255, 192, 203, 0.722);
-    rotate: -10deg;
+    background-color: rgba(255, 255, 255, 0.656);
+    rotate: -15deg;
     z-index: 902;
 
    display: flex;
    justify-content: center;
    align-items: center;
+   font-size: 130%;
+   font-weight: bold;
 }
 
 .f3 img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin-right: 5px;
   
 }
@@ -299,8 +301,7 @@ nav a{
    grid-template-rows: 1fr 1fr;
    padding: 3%;
 }
-#s3 div{padding-right: 33%;
-  
+#s3 div{
     padding-left: 3%;
     padding-right: 5%;
 }
@@ -445,19 +446,25 @@ footer{
 }
 
 @media screen and (max-width:490px){
+    .menu{
+        margin-right: 6%;
+    }
     .menu img{
         width: 30px;
-        height: 27px;
-        margin-right: 5%;
+        height: 30px;
     }
     .prop{
         font-size: 110%;
+    }
+    .prop img{
+        width: 33px;
+        height: 33px;
     }
 
     .f2,.f3{
         width: 40%;
         height: 17vh;
-        left: 30px;
+        left: 5px;
     }
     
    #main{
@@ -470,29 +477,72 @@ footer{
         width: 90%;
         height: 23vh;
         border-radius: 0px;
-        
-
+        box-shadow: 0px 0px 0px 0px transparent;
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
     }
     .m1,.m2,.m3{
         height: 2vh;
         width: 90%;
+        margin: 2%;
+    }
+    .m2{
+        width: 80%;
+    }
+    .m3{
+        width: 70%;
     }
     #s2{
         flex-direction: column-reverse;
+        padding: 1%;
     }
-    #s2a{
-        width: 95%;
-        padding-left: 2%;
-        padding-right: 1%;
+    .s2a{
+        width: 100%;
+        padding-left: 1%;
+        margin-top: 0%;
+    }
+    .s2a p{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    #ap{
+        width: 18rem;
     }
     .loc{
         margin-bottom: 4%;
+        height: 6vh;
     }
     #s3{
        grid-template-columns: 1fr;
        grid-template-rows: 1fr 1fr 1fr 1fr;
        height: fit-content;
+       overflow: hidden;
+       gap: 0%;
+       margin-bottom: 0%;
     }
+    #ss1,#ss2,#ss3,#ss4{
+        padding: 10%;
+        height: fit-content;
+        overflow: hidden;
+        margin: 0%;
+    }
+
+    .
+
+#ss3{
+    position: relative;
+    top: -5%;
+    height: fit-content;
+}
+
+    #ss4{
+        position: relative;
+        top: -25%;
+    }
+
     #c{
         display: none;
     }
