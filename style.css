@@ -518,7 +518,7 @@ footer{
     }
     #s3{
        grid-template-columns: 1fr;
-       grid-template-rows: 1fr 1fr 1fr 1fr;
+       grid-template-rows: 1fr ;
        height: fit-content;
        overflow: hidden;
        gap: 0%;
@@ -529,17 +529,6 @@ footer{
         height: fit-content;
         overflow: hidden;
         margin: 0%;
-    }
-
-#ss3{
-    position: relative;
-    top: -5%;
-    height: fit-content;
-}
-
-    #ss4{
-        position: relative;
-        top: -25%;
     }
 
     #c{
