@@ -15,8 +15,8 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
   width: 100%;
   height: fit-content;
   display: flex;
@@ -26,6 +26,10 @@ header {
   font-weight: bolder;
   background-color: #ffffff;
   z-index: 1000;
+}
+
+.menu{
+    display: none;
 }
 
 .prop {
@@ -88,6 +92,42 @@ nav a{
     align-items: center;
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px grey;
+}
+
+.f2,.f3{
+    width: 15%;
+    height: 25vh;
+    z-index: 900;
+    position: absolute;
+    top: 20vh;
+    left: 100px;
+    border-radius: 20px;
+    
+}
+
+.f2{
+    background-color: orangered;
+    rotate: 15deg;
+    z-index: 901;
+}
+.f3{
+    background-color: rgba(255, 192, 203, 0.722);
+    rotate: -10deg;
+    z-index: 902;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.f3 img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  
+}
+.f3 p{
+   
 }
 
 #main{
@@ -290,6 +330,12 @@ nav a{
 #ss3{
     background-color: rgb(238, 238, 238);
 }
+#ss3 ul{
+    list-style-type: circle !important;
+}
+#ss3 ul li{
+    margin: 10px;
+}
 #ss4{
     background-color: rgb(255, 255, 255);
 }
@@ -317,9 +363,122 @@ nav a{
 
 footer{
     max-width: 100%;
-    height: 40vh;
-    background-color: rgb(121, 121, 121);
+    height: 10vh;
+    background-color: rgb(17, 30, 38);
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width:1024px){
+    .f2,.f3{
+        width: 15%;
+        height: 17vh;
+    }
+    .main2{
+        height: 13vh;
+    }
+    .loc{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    header{
+      height: 15vh;
+        background-color: #eeeeee;
+    }
+
+    .topLeft{
+        display: none;
+    }
+
+    .prop{
+        width: 50%;
+    }
+
+    .menu{
+        display: block;
+        margin-right: 4%;
+    }
+    .menu img{
+        width: 35px;
+        height: 33px;
+    }
+    #main{
+        height: 68vh;
+    }
+    .f2,.f3{
+        width: 22%;
+        height: 20vh;
+    }
+    .main1{
+        width: 80%;
+        height: 55vh ;
+    }
+    .main2{
+        flex-direction: column;
+        height: 30vh;
+    }
+    .m1,.m2,.m3{
+        width: 70%;
+    }
+    .s2a{
+        height: fit-content;
+    }
+    #s2{
+        height: fit-content;
+        padding-top: 0%;
+    }
+    #ap{
+        width: 25rem;
+    }
+    .loc{
+        width: 55%;
+        height: 7vh ;
+        margin-left: 5%;
+    }
+
+}
+
+@media screen and (max-width:490px){
+    .menu img{
+        width: 32px;
+        height: 29px;
+    }
+
+    .f2,.f3{
+        width: 40%;
+        height: 17vh;
+        left: 30px;
+    }
+    
+   #main{
+    height: 85vh;
+   }
+    .main1{
+        height: 80vh;
+    }
+    .main2{
+        width: 70%;
+        height: 35vh;
+        
+
+    }
+    .m1,.m2,.m3{
+        height: 4vh;
+        width: 90%;
+    }
+    #s2{
+        flex-direction: column-reverse;
+    }
+    #s3{
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr;
+       height: fit-content;
+    }
+    
 }
