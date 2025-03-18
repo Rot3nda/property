@@ -475,6 +475,12 @@ footer{
     #s2{
         flex-direction: column-reverse;
     }
+    #s2a{
+        width: 90%;
+    }
+    .loc{
+        margin-bottom: 3%;
+    }
     #s3{
        grid-template-columns: 1fr;
        grid-template-rows: 1fr 1fr 1fr 1fr;
