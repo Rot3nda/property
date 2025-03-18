@@ -521,14 +521,15 @@ footer{
        grid-template-rows: 1fr ;
        height: fit-content;
        overflow: hidden;
-       gap: 0%;
-       margin-bottom: 0%;
     }
     #ss1,#ss2,#ss3,#ss4{
         padding: 10%;
         height: fit-content;
         overflow: hidden;
-        margin: 0%;
+    }
+
+    #mode div{
+        width: 40%;
     }
 
     #c{
