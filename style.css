@@ -30,6 +30,9 @@ header {
 .menu{
     display: none;
 }
+.cancel{
+    display: none;
+}
 
 .prop {
     width: 20%;
@@ -92,6 +95,8 @@ nav a{
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px grey;
 }
+
+
 
 .f2,.f3{
     width: 15%;
@@ -235,10 +240,14 @@ nav a{
     align-items: center;
     z-index: 1000;
 }
+
+
 #c img{
     width: 20px;
     height: 20px;
 }
+
+
 
 #s2{
     max-width: 100%;
@@ -393,6 +402,13 @@ footer{
         display: none;
     }
 
+    #sd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+    }
+
     .prop{
         width: 50%;
     }
@@ -405,6 +421,16 @@ footer{
         width: 35px;
         height: 33px;
     }
+
+    .cancel{
+      margin-right: 5.2%;
+    }
+
+   .cancel img{
+    width: 33px;
+    height: 31px;
+   }
+
     #main{
         height: 68vh;
     }
@@ -437,6 +463,86 @@ footer{
         width: 55%;
         height: 7vh ;
         margin-left: 5%;
+    }
+    #sd{
+        position: absolute;
+        top: 10vh;
+        position: fixed;
+        width: 100%;
+        height: 90vh;
+        background-color: rgb(255, 255, 255);
+        z-index: 1001;
+        display: none;
+    }
+    
+    .sd1{
+        width: 90%;
+        height: 45vh;
+        border-bottom: 2px solid black;
+        padding-top: 10%;
+    
+    }
+    
+    #sd h1{
+        margin: 5%;
+        width: 50%;
+        background-color: rgb(181, 181, 181);
+        background-color: rgb(20, 60, 82);
+        text-align: center;
+        border-radius: 20px;
+        padding: 1%;
+        color: white;
+    }
+    
+    .sd1 ul li{
+        margin-bottom: 15%;
+        font-size: 120%;
+        font-weight: bold;
+    }
+    
+    .sd1 ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 110%;
+    }
+    
+    .sd2{
+       width: 90%;
+       display: flex;
+       justify-content: center;
+       align-items: left;
+       flex-direction: column;
+       padding-top:5% ;
+    }
+    
+    .sd2 div{
+       width: 30%;
+       height: 4vh;
+       border-radius: 20px;
+       margin: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .sd21{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    .sd22{
+        background-color: black;
+        color: white;
+    }
+    
+    .sd23{
+        font-size: 110%;
+    }
+    
+    .sd23 img{
+        width: 28px;
+        height: 28px;
+        margin-right: 4%;
     }
 
 }

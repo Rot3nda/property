@@ -21,7 +21,8 @@
         </nav>
         <div class="tl">Login</div>
         </div>
-        <div class="menu"><img src="icons8-menu-48.png"></div>
+        <div onclick="sideOn()" class="menu" id="menu"><img src="icons8-menu-48.png"></div>
+        <div onclick="sideOff()" class="cancel" id="cancel"><img src="cancel.png"></div>
     </header>
 
     <section id="main">
@@ -54,6 +55,8 @@
        <img src="icons8-instagram-50.png">
        <img src="icons8-whatsapp-50.png">
     </section>
+
+   
 
     <section id="s2">
      <img id="ap" src="pexels-tobiasbjorkli-2119714.jpg" data-aos="fade-right">
@@ -111,9 +114,30 @@
             
         </div>
     </section>
-
     
-    <footer>
+
+<section id="sd">
+   <h1>Menu</h1>
+ <div class="sd1"> 
+    <ul>
+        <a href="#p3" onclick="aboutOff()"><li>About</li></a>
+        <li onclick="">Sell/Buy</li>
+        <li onclick="">Properties</li>
+        <a href="#foot" onclick="contactOff()"><li>Contact</li></a>
+    </ul>
+ </div>
+
+ <div class="sd2">
+    <div class="sd21">Sign up</div>
+    <div class="sd22">Log in</div>
+    <div class="sd23">
+        <img src="icons8-location-48.png">Midrand
+    </div>
+ </div>
+
+</section>
+
+    <footer id="foot">
         <p></p>
     </footer>
 
