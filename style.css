@@ -115,7 +115,7 @@ nav a{
     z-index: 901;
 }
 .f3{
-    background-color: rgba(255, 255, 255, 0.656);
+    background-color: rgb(255, 255, 255);
     rotate: -15deg;
     z-index: 902;
 
