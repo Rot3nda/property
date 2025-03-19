@@ -21,3 +21,5 @@ const contactOff=()=>{
     document.getElementById('cancel').style.display="none";
     document.getElementById('menu').style.display="flex";
 }
+
+console.log('Hi there this is property\'s script');
