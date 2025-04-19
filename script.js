@@ -22,4 +22,5 @@ const contactOff=()=>{
     document.getElementById('menu').style.display="flex";
 }
 
-console.log('Hi there this is property\'s script');
+
+
